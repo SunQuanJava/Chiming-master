@@ -7,6 +7,8 @@ import android.view.View;
 import com.kennyc.view.MultiStateView;
 import com.sunquan.chimingfazhou.R;
 
+import butterknife.Bind;
+
 /**
  * 支持跟随手势右滑和加载状态的activity
  *
@@ -14,7 +16,8 @@ import com.sunquan.chimingfazhou.R;
  */
 public abstract class BaseLoadingWithSwipeBackActivity extends BaseSwipeBackActivity implements View.OnClickListener{
 
-    private MultiStateView multiStateView;
+    @Bind(R.id.multiStateView)
+    MultiStateView multiStateView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

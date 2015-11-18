@@ -2,4 +2,4 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="?colorControlHighlight">
     <item android:drawable="@drawable/sdl_button_selector" />
-</ripple><!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/drawable-v21/sdl_button.xml -->
+</ripple><!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/drawable-v21/sdl_button.xml -->

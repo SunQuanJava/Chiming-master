@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -12,13 +12,13 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values/sdl_boolean.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values/sdl_boolean.xml -->
     <eat-comment/>
     <bool name="blur_dialog_blur_actionbar">true</bool>
     <bool name="blur_dialog_debug">false</bool>
     <bool name="blur_dialog_has_bottom_navigation_bar">true</bool>
     <bool name="blur_dialog_use_render_script">true</bool>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -63,7 +63,7 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values/sdl_colors.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values/sdl_colors.xml -->
     <eat-comment/>
     <color name="sdl_divider">#1F000000</color>
     <color name="sdl_normal">#fffbfcfc</color>
@@ -71,7 +71,7 @@
     <color name="sdl_stroke">#ffbebebe</color>
     <color name="sdl_text_primary">#DE000000</color>
     <color name="sdl_text_secondary">#8A000000</color>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
@@ -145,7 +145,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values/sdl_dimens.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values/sdl_dimens.xml -->
     <eat-comment/>
     <dimen name="grid_1">4dp</dimen>
     <dimen name="grid_10">40dp</dimen>
@@ -177,7 +177,7 @@
     <dimen name="grid_8">32dp</dimen>
     <dimen name="grid_9">36dp</dimen>
     <dimen name="grid_90">360dp</dimen>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -189,11 +189,11 @@
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values/sdl_integers.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values/sdl_integers.xml -->
     <eat-comment/>
     <integer name="blur_dialog_animation_duration">180</integer>
     <integer name="dialog_blur_radius">4</integer>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -1129,7 +1129,7 @@
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
     </style>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values/sdl_styles.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values/sdl_styles.xml -->
     <eat-comment/>
     <style name="SDL"/>
     <style name="SDL.Button">
@@ -1316,7 +1316,7 @@
         <item name="android:gravity">center</item>
         <!-- paddings set in code -->
     </style>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>

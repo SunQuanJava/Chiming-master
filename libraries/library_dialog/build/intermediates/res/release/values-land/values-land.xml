@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-land/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-land/values.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values-land/sdl_boolean.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values-land/sdl_boolean.xml -->
     <eat-comment/>
     <bool name="blur_dialog_has_bottom_navigation_bar">false</bool>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-land/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-land/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">48dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">0dp</dimen>

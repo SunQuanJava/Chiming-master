@@ -2,4 +2,4 @@
 
 <com.avast.android.dialogs.trick.TrickyDatePicker xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/sdl_datepicker"
-	style="@style/SDL.DatePicker"/><!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/layout/sdl_datepicker.xml -->
+	style="@style/SDL.DatePicker"/><!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/layout/sdl_datepicker.xml -->

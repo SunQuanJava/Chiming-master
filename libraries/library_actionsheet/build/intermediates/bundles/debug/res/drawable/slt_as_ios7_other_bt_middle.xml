@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/actionsheet_middle_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/actionsheet_middle_normal"/>
 
-</selector><!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_actionsheet/src/main/res/drawable/slt_as_ios7_other_bt_middle.xml -->
+</selector><!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_actionsheet/src/main/res/drawable/slt_as_ios7_other_bt_middle.xml -->

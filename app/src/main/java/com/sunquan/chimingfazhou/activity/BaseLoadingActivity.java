@@ -7,6 +7,8 @@ import android.view.View;
 import com.kennyc.view.MultiStateView;
 import com.sunquan.chimingfazhou.R;
 
+import butterknife.Bind;
+
 /**
  * 包含加载状态的activity
  * <p/>
@@ -14,14 +16,15 @@ import com.sunquan.chimingfazhou.R;
  */
 public abstract class BaseLoadingActivity extends AppBaseActivity implements View.OnClickListener {
 
-    private MultiStateView multiStateView;
+    @Bind(R.id.multiStateView)
+    MultiStateView multiStateView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentLayout(R.layout.base_loading_state_layout);
 
-        multiStateView = (MultiStateView) findViewById(R.id.multiStateView);
         multiStateView.setViewState(MultiStateView.ViewState.LOADING);
         //noinspection ConstantConditions
         multiStateView.getView(MultiStateView.ViewState.ERROR).setOnClickListener(this);

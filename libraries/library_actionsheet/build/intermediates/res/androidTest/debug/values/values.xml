@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_actionsheet/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_actionsheet/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -123,11 +123,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_actionsheet/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_actionsheet/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_actionsheet/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_actionsheet/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -161,12 +161,12 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_actionsheet/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_actionsheet/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">Actionsheet</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_actionsheet/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_actionsheet/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>

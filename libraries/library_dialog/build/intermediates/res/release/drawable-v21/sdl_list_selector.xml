@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
     <item android:drawable="@drawable/sdl_list_pressed" android:state_pressed="true" />
     <item android:drawable="@drawable/sdl_list_normal" />
-</selector><!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/drawable-v21/sdl_list_selector.xml -->
+</selector><!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/drawable-v21/sdl_list_selector.xml -->

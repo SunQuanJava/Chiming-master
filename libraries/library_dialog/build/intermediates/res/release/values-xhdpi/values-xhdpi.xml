@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values-xhdpi/sdl_boolean.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values-xhdpi/sdl_boolean.xml -->
     <eat-comment/>
     <bool name="dialog_blur">true</bool>
-    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values-xhdpi/sdl_integers.xml -->
+    <!-- From: file:/E:/cooperation%20item/baizhi/Chiming/libraries/library_dialog/src/main/res/values-xhdpi/sdl_integers.xml -->
     <eat-comment/>
     <integer name="dialog_blur_downgrade">8</integer>
 </resources>
