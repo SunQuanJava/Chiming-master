@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunquan.chimingfazhou">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 读取电话状态权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="action.xiu.counter"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="main"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.WenDetailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="wenDetail"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SiDetailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="siDetail"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.XiuDetailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="action.xiu.detail" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="xiuDetail"
+                    android:scheme="cmfz"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.XiuCounterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="action.xiu.counter"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="xiuCounter"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="register"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.VerificationCodeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="action.from.forget"/>
+                <action android:name="action.from.register"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="verificationCode"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.SetPasswordActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="action.user.verification.code" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="setPassword"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.UserCenterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="action.user.set.password" />
+                <action android:name="action.user.center.wo" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="userCenter"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="login"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.EditActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme"
+            android:windowSoftInputMode="adjustPan|stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="action.from.user.center.for.description" />
+                <action android:name="action.from.user.center.for.nickname" />
+                <action android:name="action.from.user.center.for.farminton" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="edit"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ForgetPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme"
+            android:windowSoftInputMode="adjustPan|stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="forgetPassword"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.JingangFriendActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="jingangFriend"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.TeamActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="team"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="welcome"
+                    android:scheme="cmfz" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.MusicPlayService"
+            android:exported="false"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

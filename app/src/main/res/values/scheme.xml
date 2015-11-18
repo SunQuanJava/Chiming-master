@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scheme_wenDetail">cmfz://wenDetail</string>
+    <string name="scheme_siDetail">cmfz://siDetail</string>
+    <string name="scheme_xiuDetail">cmfz://xiuDetail</string>
+    <string name="scheme_xiuCounter">cmfz://xiuCounter</string>
+    <string name="scheme_welcome">cmfz://welcome</string>
+    <string name="scheme_main">cmfz://main</string>
+    <string name="scheme_login">cmfz://login</string>
+    <string name="scheme_jingangFriend">cmfz://jingangFriend</string>
+    <string name="scheme_team">cmfz://team</string>
+    <string name="scheme_userCenter">cmfz://userCenter</string>
+    <string name="scheme_setPassword">cmfz://setPassword</string>
+    <string name="scheme_verificationCode">cmfz://verificationCode</string>
+    <string name="scheme_register">cmfz://register</string>
+    <string name="scheme_forgetPassword">cmfz://forgetPassword</string>
+    <string name="scheme_edit">cmfz://edit</string>
+
+</resources>

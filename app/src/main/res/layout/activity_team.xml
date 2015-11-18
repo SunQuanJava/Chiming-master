@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/team_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="#00000000"
+    android:divider="@null"
+    android:background="#fff0f0f0"
+    android:fadingEdge="none"
+    android:listSelector="@android:color/transparent"
+    />
+

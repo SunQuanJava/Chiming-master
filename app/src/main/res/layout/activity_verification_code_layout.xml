@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/verification_code_str1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff656469"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/verification_code_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:id="@+id/verification_code_in"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/verification_shape"
+        android:textColor="#FF000000"
+        android:gravity="center"
+        android:hint="@string/verification_code_tip"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textColorHint="#FFBDBDBD" />
+
+    <TextView
+        android:id="@+id/verification_code_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FF5C6F9B"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/verification_code_submit"
+        style="@style/login_button_style"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/xiu_counter_blue_selector"
+        android:gravity="center"
+        android:text="@string/verification_code_submit"
+        />
+</LinearLayout>

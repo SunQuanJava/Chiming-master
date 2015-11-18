@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">持明法洲</string>
+    <string name="holder_text">占位</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="header_last_time">上次更新时间：</string>
+
+    <!-- bottom tab -->
+    <string name="tab_wen_tip">吉祥妙音</string>
+    <string name="tab_si_tip">甘露妙宝</string>
+    <string name="tab_xiu_tip">功课记录</string>
+    <string name="tab_wo_tip">我</string>
+    <string name="tab_shouye_tip">首页</string>
+
+    <string name="drop_dowm">下拉开始刷新</string>
+    <string name="release_update">释放更新</string>
+    <string name="doing_update">加载中…</string>
+    <string name="update_time">最后更新</string>
+    <string name="exit">退出应用</string>
+    <string name="exit_prompt">确定退出持明法洲？</string>
+    <string name="error_message">获取数据失败</string>
+    <string name="loading_empty_message">暂无内容</string>
+    <string name="loading_retry_message">加载失败，点击重试</string>
+    <string name="loading_message">加载中…</string>
+    <string name="si_tab_sub2">显密法要</string>
+    <string name="si_tab_sub1">上师言教</string>
+    <string name="wen_detail_introduction_message">详情简介</string>
+    <string name="wen_detail_list_message">章节列表</string>
+    <string name="delete">删除</string>
+    <string name="none_counter_message">您还未添加计数器</string>
+    <string name="xiu_sub_message">请点击右上角加号添加功课记录</string>
+    <string name="add_galary_message">添加类别</string>
+    <string name="empty_xiu_galary_message">类别名称不能为空</string>
+    <string name="delete_message">删除</string>
+    <string name="input_galary_tip">请输入类别名称</string>
+    <string name="add_galary_tag">edit_galary</string>
+    <string name="modify_galary_tag">modify_galary</string>
+    <string name="delete_xiu_galary">删除类别</string>
+    <string name="delete_xiu_message_prompt">确定删除当前类别吗？</string>
+    <string name="delete_xiu_sub_message">删除计数器</string>
+    <string name="delete_xiu_sub_message_prompt">确定删除当前计数器吗？</string>
+    <string name="delete_count_message">删除计数</string>
+    <string name="add_count_message">添加计数</string>
+    <string name="modify_count_message">修改计数</string>
+    <string name="add_new_counter_message">创建新的计数器</string>
+    <string name="input_galary_input_hint">请输入计数器名称</string>
+    <string name="exist_xiu_galary_message">该类别名称已存在</string>
+    <string name="exist_xiu_galary_count_message">该计数器名称已存在</string>
+    <string name="empty_xiu_galary_count_message">计数器名称不能为空</string>
+    <string name="counter_max_massage">计数器已经达到最大</string>
+    <string name="cancel_counter_title_message">取消计数</string>
+    <string name="cancel_counter_message">确定取消本次计数吗？</string>
+    <string name="counter_saved_message">本次计数已保存</string>
+    <string name="no_add_counter_message">未添加计数</string>
+    <string name="save_count_title_message">保存计数</string>
+    <string name="save_count_message">是否保存当前计数器？</string>
+    <string name="introduction_author">作者：</string>
+    <string name="introduction_broadcast">播音：</string>
+    <string name="introduction_set_number">集数：</string>
+    <string name="introduction_date">发布日期：</string>
+    <string name="introduction_brief">&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="chizhousongjing">持咒诵经</string>
+    <string name="chengxinlifo">诚心礼佛</string>
+    <string name="increase">加</string>
+    <string name="decrease">减</string>
+    <string name="modify_hint_message">请输入需要修改的计数</string>
+    <string name="exceed_max_messge">计数超过最大限制</string>
+    <string name="xiu_more">更多</string>
+    <string name="xiu_top">置顶</string>
+    <!--注册-->
+    <string name="register_phone_str">请输入手机号</string>
+    <string name="register_country_str1">国家地区</string>
+    <string name="register_country_str2">中国大陆+86</string>
+    <string name="register_tip">点击 “获取” 下发短信验证码。</string>
+    <string name="login">登录</string>
+    <string name="register_new_use">注册新用户</string>
+    <string name="register">注册</string>
+    <string name="confirmation_phone_number">确认手机号</string>
+    <string name="confirmation_tip">我们将发送验证码短信到这个号码：</string>
+    <string name="register_error1">手机号码不能为空</string>
+    <string name="register_error2">手机号码格式不正确</string>
+
+    <!--填写验证码-->
+    <string name="verification_code_submit">提交</string>
+    <string name="verification_code_tip">请输入验证码</string>
+    <string name="verification_code_title">填写验证码</string>
+    <string name="verification_code_message">已发送验证码短信到这个号码</string>
+    <string name="verification_code_time">秒后可重新获取</string>
+    <string name="verification_code_again">重新获取验证码</string>
+
+    <!--设置密码-->
+    <string name="set_password">设置密码</string>
+    <string name="set_password_success">完成</string>
+    <!-- Download -->
+    <string name="no_network">网络错误</string>
+    <string name="download_error">下载失败</string>
+    <string name="warm_tip">温馨提示</string>
+    <string name="download_tip_message">当前是非WIFI网络，下载会消耗较多网络流量，确定继续？</string>
+    <string name="begin_download_message">开始下载</string>
+    <string name="download_delete_message">已删除</string>
+    <string name="download_pause_message">已暂停</string>
+    <string name="download_header_message">共%1$s章节</string>
+    <string name="count_unmodify_message">计数未修改</string>
+    <string name="presong_message">上一集</string>
+    <string name="nextsong_message">下一集</string>
+    <string name="pause_message">暂停</string>
+    <string name="download_success_message">下载成功</string>
+    <string name="play_message">播放</string>
+    <string name="close">关闭</string>
+    <string name="play_error_message">播放失败</string>
+    <string name="play_tip_message">当前是非WIFI网络，收听会消耗较多网络流量，确定继续？</string>
+
+    <!--login-->
+    <string name="password">请输入密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="account">请输入手机号</string>
+    <string name="forgive_next">下一步</string>
+    <string name="hint_input_phone_check">抱歉，您输入的手机号不合法</string>
+    <string name="phone_check_login">手机验证登陆</string>
+    <string name="phone_check">确认手机号</string>
+    <string name="title_activity_login">login</string>
+
+    <!--wo-->
+    <string name="wo_user_data">用户反馈</string>
+    <string name="wo_user_friend">金刚道友</string>
+    <string name="wo_team">开发团队</string>
+    <string name="wo_out_login">退出登录</string>
+    <string name="wo_update_password">修改密码</string>
+    <string name="login_ing">登录中...</string>
+    <string name="login_out_ing">正在退出...</string>
+    <string name="net_error">无网络,请检查网络设置...</string>
+
+
+    <string name="female">女</string>
+    <string name="male">男</string>
+    <string name="no_limited">不限</string>
+    <string name="set_password_tip1">密码不能为空</string>
+    <string name="set_password_tip2">两次密码必须一致</string>
+    <string name="set_password_tip3">密码长度必须大于6</string>
+    <string name="set_password_tip4">密码不能是9位以下纯数字</string>
+    <string name="verification_code_tip_error">验证码不正确，请重新输入</string>
+
+    <!--个人信息-->
+    <string name="user_save">保存</string>
+    <string name="user_photo">头像</string>
+    <string name="user_farming">法名</string>
+    <string name="user_nickname">姓名</string>
+    <string name="user_gender">性别</string>
+    <string name="user_location">所在地</string>
+    <string name="user_descriptiom">签名</string>
+    <string name="user_tip_nochange">您没有做任何修改</string>
+    <string name="user_tip_savinguserinfo">正在保存用户信息</string>
+    <string name="user_tip_savesuccess">个人信息修改成功</string>
+    <string name="user_tip_changefailure">个人信息修改失败</string>
+    <string name="user_change_userinfo">修改信息</string>
+    <string name="user_change_userinfo_tip">个人信息被修改，是否保存？</string>
+    <string name="user_from_album">从手机相册选择</string>
+    <string name="user_photograph">拍照</string>
+    <string name="user_uploading_photo">正在上传图片</string>
+    <string name="user_uploadsuccess">上传成功</string>
+    <string name="user_uploadfailure">上传失败</string>
+    <string name="editactivity_description">个性签名</string>
+    <string name="edtiactivity_description_hint">请输入个性签名</string>
+    <string name="editactivtiy_faming">法名</string>
+    <string name="editactivity_faming_hint">请输入法名</string>
+    <string name="editactivity_name">姓名</string>
+    <string name="editactivity_name_hint">请输入姓名</string>
+    <string name="editactivity_morelength_tip">字数超过限制</string>
+    <string name="load_user_photo_message">正在加载头像</string>
+    <string name="user_photo_load_success_message">头像加载成功</string>
+    <string name="user_photo_load_fail_message">头像加载失败</string>
+    <string name="user_info_title">个人信息</string>
+    <string name="verification_code_tipfail">验证码校验失败</string>
+    <string name="modify_password">修改密码</string>
+    <string name="register_fail">注册失败</string>
+    <string name="operating">操作中</string>
+    <string name="modify_password_success_tip">密码修改成功</string>
+    <string name="modify_password_fail_tip">密码修改失败</string>
+    <string name="verification_success_tip">验证码校验成功</string>
+    <string name="welcome_inter">开始体验</string>
+    <string name="verification_code_nokong">验证码不能为空</string>
+    <string name="verification_code_length">验证码不能少于6位</string>
+    <string name="double_click_message">再按一次退到后台</string>
+    <string name="user_info_perfect">完善资料</string>
+    <string name="user_center_farmington_no_empty">法名为必填项</string>
+    <string name="user_center_nickname_no_empty">姓名为必填项</string>
+    <string name="edit_nickname_no_empty_message">姓名不能为空</string>
+    <string name="edit_farmington_no_empty_message">法名不能为空</string>
+    <string name="batch_download_message">批量下载</string>
+    <string name="team">%1$s&#160;&#160;&#160;%2$s</string>
+</resources>

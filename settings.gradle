@@ -1,0 +1,19 @@
+include ':app', ':baseApp'
+include ':dialog'
+project(':dialog').projectDir = new File(settingsDir, 'libraries/library_dialog')
+include ':astickyheader'
+project(':astickyheader').projectDir = new File(settingsDir, 'libraries/library_astickyheader')
+include ':swipemenulistview'
+project(':swipemenulistview').projectDir = new File(settingsDir, 'libraries/library_swipemenulistview')
+include ':multistateview'
+project(':multistateview').projectDir = new File(settingsDir, 'libraries/library_multistateview')
+include ':swipebackactivity'
+project(':swipebackactivity').projectDir = new File(settingsDir, 'libraries/library_swipebackactivity')
+include ':androidquery'
+project(':androidquery').projectDir = new File(settingsDir, 'libraries/library_androidquery')
+include ':download'
+project(':download').projectDir = new File(settingsDir, 'libraries/library_download')
+include ':wheel'
+project(':wheel').projectDir = new File(settingsDir, 'libraries/library_wheel')
+include ':actionsheet'
+project(':actionsheet').projectDir = new File(settingsDir, 'libraries/library_actionsheet')

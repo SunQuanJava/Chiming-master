@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="blur_dialog_has_bottom_navigation_bar">true</bool>
+    <bool name="blur_dialog_use_render_script">true</bool>
+    <bool name="blur_dialog_blur_actionbar">true</bool>
+    <bool name="blur_dialog_debug">false</bool>
+</resources>

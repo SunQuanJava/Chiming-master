@@ -1,0 +1,50 @@
+{
+    "teams": [
+        {
+            "name": "刘春阳",
+            "job": "总经理",
+            "photo": "liuchunyang.jpg"
+        },
+        {
+            "name": "杨晨",
+            "job": "产品经理",
+            "photo": "yangchen.jpg"
+        },
+        {
+            "name": "孙帅",
+            "job": "技术总监",
+            "photo": "sunshuai.jpg"
+        },
+        {
+            "name": "刘槟",
+            "job": "设计师",
+            "photo": "liubin.jpg"
+        },
+        {
+            "name": "孙泉",
+            "job": "工程师",
+            "photo": "sunquan.jpg"
+        },
+        {
+            "name": "崔志恒",
+            "job": "工程师",
+            "photo": "cuizhiheng.jpg"
+        },
+        {
+            "name": "刘亚魁",
+            "job": "工程师",
+            "photo": "liuyakui.jpg"
+        },
+        {
+            "name": "杨春肖",
+            "job": "编辑",
+            "photo": "yangchunxiao.jpg"
+        },
+        {
+            "name": "朱宏亮",
+            "job": "HTML5开发",
+            "photo": "zhuhongl.jpg"
+        }
+    ],
+    "welcome_photo": "welcome_guid_01.jpg,welcome_guid_02.jpg,welcome_guid_03.jpg,welcome_guid_04.jpg"
+}

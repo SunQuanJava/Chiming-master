@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xiu_item_selector">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:ellipsize="none"
+            android:gravity="left"
+            android:minEms="2"
+            android:singleLine="true"
+            android:text="skdf"
+            android:textColor="#ff313131"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/userinfo_more" />
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/more"
+            android:layout_toRightOf="@id/key"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="klsajdlfk"
+            android:textColor="#ffa9a9a9"
+            android:textSize="16sp" />
+
+
+        <com.baizhi.baseapp.widget.CircleImageView
+            android:id="@+id/user_icon"
+            android:layout_width="@dimen/circle_image_size"
+            android:layout_height="@dimen/circle_image_size"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/more"
+            android:src="@drawable/user_default_icon"
+            app:border_width="0dp"
+            app:border_color="@color/transparent"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffdddddd" />
+
+</RelativeLayout>

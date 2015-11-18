@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="account_edittext_style">
+
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textColor">#ff313131</item>
+        <item name="android:textColorHint">#ffA9A9A9</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="login_button_style">
+
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff3ac00</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="cover_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="wo_fragment_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff313131</item>
+        <item name="android:background">@drawable/xiu_item_selector</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:drawableRight">@drawable/more</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+</resources>

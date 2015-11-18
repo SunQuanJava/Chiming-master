@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+       xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/welcome_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.baizhi.baseapp.widget.EmotionPageIndicator
+        android:id="@+id/indicater"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/welcome_inter"
+        android:layout_above="@id/indicater"
+        style="@style/login_button_style"
+        android:background="@drawable/xiu_counter_blue_selector"
+        android:text="@string/welcome_inter"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

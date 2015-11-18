@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/values-sw720dp/sdl_boolean.xml -->
+    <eat-comment/>
+    <bool name="blur_dialog_has_bottom_navigation_bar">true</bool>
+</resources>

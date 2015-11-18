@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/xiu_add_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/send_message_edittext_background"
+        android:hint="@string/modify_hint_message"
+        android:inputType="number"
+        android:maxLength="7"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#ff313131"
+        android:textColorHint="#ffdddddd"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xiu_add_edittext"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/modify_count_message"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="left|center_vertical"
+            android:text="@string/increase"
+            android:textColor="#ff313131"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/decrease"
+            android:textColor="#ff313131"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+</RelativeLayout>

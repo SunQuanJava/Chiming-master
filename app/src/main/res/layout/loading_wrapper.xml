@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_wrapper"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/loading_inner" />
+
+    <ProgressBar
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@drawable/pull_refresh_progress"
+        android:indeterminateDuration="750" />
+</FrameLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefeff4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <!-- 用户信息-->
+        <LinearLayout
+            android:id="@+id/user_info"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/xiu_item_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/circle_image_size"
+                android:layout_height="@dimen/circle_image_size">
+
+                <com.baizhi.baseapp.widget.CircleImageView
+                    android:id="@+id/wo_user_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/wo_user_picture"
+                    app:border_color="@color/transparent"
+                    app:border_width="0dp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/wo_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#ff313131"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/wo_user_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#ff313131"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 用户反馈 -->
+        <TextView
+            android:id="@+id/user_feedback"
+            style="@style/wo_fragment_item_style"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/wo_user_backinfo"
+            android:text="@string/wo_user_data" />
+
+        <!-- 修改密码 -->
+        <TextView
+            android:id="@+id/user_update_password"
+            style="@style/wo_fragment_item_style"
+            android:layout_marginTop="1.0dp"
+            android:drawableLeft="@drawable/wo_updata_password"
+            android:text="@string/wo_update_password" />
+
+        <!-- 金刚道友 -->
+        <TextView
+            android:id="@+id/jingang_friend"
+            style="@style/wo_fragment_item_style"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/wo_friend"
+            android:text="@string/wo_user_friend" />
+
+        <!-- 开发团队 -->
+        <TextView
+            android:id="@+id/app_team"
+            style="@style/wo_fragment_item_style"
+            android:layout_marginTop="1.0dp"
+            android:drawableLeft="@drawable/wo_team"
+            android:text="@string/wo_team" />
+
+        <!-- 退出登录 -->
+        <TextView
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/xiu_item_selector"
+            android:gravity="center"
+            android:text="@string/wo_out_login"
+            android:textColor="#ff313131"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

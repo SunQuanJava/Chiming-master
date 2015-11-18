@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holder_text">占位</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="header_last_time">上次更新时间：</string>
+
+    <string name="drop_dowm">下拉开始刷新</string>
+    <string name="release_update">释放更新</string>
+    <string name="doing_update">加载中…</string>
+    <string name="update_time">最后更新</string>
+    <string name="exit">退出应用</string>
+    <string name="error_message">获取数据失败</string>
+    <string name="loading_empty_message">暂无内容</string>
+    <string name="loading_retry_message">加载失败，点击重试</string>
+    <string name="loading_message">加载中…</string>
+
+
+
+</resources>

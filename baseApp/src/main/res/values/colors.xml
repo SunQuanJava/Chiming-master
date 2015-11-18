@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="background_drawable">@color/theme_color</drawable>
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="background_color">#FFEDEDED</color>
+    <color name="theme_color">#FF00008b</color>
+    <color name="theme_color_dark">#FF00008b</color>
+    <color name="spalsh_status_color">#FFF1F1F1</color>
+    <!-- 360 key 此颜色表由UI设计师定义 -->
+    <color name="main_content_text_color">#333333</color>
+    <!-- 分组标题栏文字阴影颜色 -->
+    <color name="main_button_text_color_for_light_color_button">#787878</color>
+    <!-- 主要辅助按钮文字颜色 -->
+    <color name="main_button_shadow_text_color_for_light_color_button">#BFFFFFFF</color>
+    <!-- 主要内容按钮不可用文字颜色 -->
+    <color name="main_button_text_color_for_deep_color_button">#FFFFFF</color>
+    <color name="navigationbar_text_color">#FFFC4052</color>
+
+    <!-- Swipe card-->
+    <color name="card_bg">#EBEBEB</color>
+    <color name="card_outline">#D0D0CE</color>
+    <color name="swipe_card_text_color">#FFAAAAAA</color>
+
+    <!-- radar ripple -->
+    <color name="rippel_color">#66FC4052</color>
+    <color name="rippel_fade_color">#20666666</color>
+
+    <!-- 聊天界面背景-->
+    <color name="chat_message_background_color">#FFEDEDED</color>
+    <color name="send_message_focused_color">#888888</color>
+    <color name="send_message_normal_color">#507DAF</color>
+    <color name="chat_time_text_color">#B7B7B7</color>
+    <color name="chat_introduction_text_color">#FFAAAAAA</color>
+
+    <!--text color-->
+    <color name="text_color_767676">#FF767676</color>
+    <color name="text_color_fc4052">#FFFC4052</color>
+    <color name="text_color_aaaaaa">#FFAAAAAA</color>
+    <color name="text_color_5d5d5d">#FF5D5D5D</color>
+
+    <!--meizu-->
+    <drawable name="smart_bar">@color/theme_color</drawable>
+
+    <color name="tab_color">#ff00008b</color>
+
+    <!-- 主要内容转发文字颜色 -->
+    <color name="main_content_button_text_color">#ffa8b8f6</color>
+    <color name="wen_item_pressed">#7f000000</color>
+
+    <color name="xiu_sub_normal">#ffDAA520</color>
+    <color name="xiu_sub_highlight">#ffB8860B</color>
+
+    <!--注册-->
+    <color name="register_hint_color">#FFA9A9A9</color>
+    <color name="register_hint_color1">#FFE9E9E9</color>
+    <color name="register_hint_line">#FFE5E5E5</color>
+</resources>

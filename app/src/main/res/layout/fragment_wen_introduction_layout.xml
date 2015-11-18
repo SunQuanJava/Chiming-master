@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/top_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:id="@+id/icon_wrapper"
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp">
+
+                <com.baizhi.baseapp.widget.RecyclingImageView
+                    android:id="@+id/left_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/avatar_default" />
+
+                <com.baizhi.baseapp.widget.RecyclingImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/audio_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/icon_wrapper"
+                android:layout_toRightOf="@id/icon_wrapper"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/wen_record_icon"
+                    android:drawablePadding="5dp"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="莲师传"
+                    android:textColor="#ff313131"
+                    android:textSize="20sp" />
+
+                <com.sunquan.chimingfazhou.widget.ScoreView
+                    android:id="@+id/ratingbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_below="@id/title" />
+
+                <TextView
+                    android:id="@+id/author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ratingbar"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="作者：伊喜.措嘉"
+                    android:textColor="#ff898989"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/broadcast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/author"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="播音：王猛"
+                    android:textColor="#ff898989"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/set_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/broadcast"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="集数：42"
+                    android:textColor="#ff898989"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ffdddddd" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottom_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_wrapper"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/bottom_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="内容简介："
+                android:textColor="#ff313131"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/bottom_holder"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="发布日期：2015.01.13"
+                android:textColor="#ff898989"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/brief"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bottom_holder"
+                android:layout_marginTop="10dp"
+                android:text="      莲花生大士，印度佛教史上最伟大的大成就者之一。公元八世纪，应藏王赤松德赞迎请入藏弘法，成功创立了西藏第一座佛、法、僧三宝齐全的佛教寺院——桑耶寺。他教导藏族弟子学习译经，从印度迎请无垢友等大德入藏，将重要显密经论译成藏文，创建显密经院及密宗道场，开创了在家出家的两种圣者应供轨范，如是等等，奠定了西藏佛教的基础。"
+                android:textColor="#ff5d5d5d"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

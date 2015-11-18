@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baseApp" />
+            <option value="$PROJECT_DIR$/libraries/library_actionsheet" />
+            <option value="$PROJECT_DIR$/libraries/library_androidquery" />
+            <option value="$PROJECT_DIR$/libraries/library_astickyheader" />
+            <option value="$PROJECT_DIR$/libraries/library_dialog" />
+            <option value="$PROJECT_DIR$/libraries/library_download" />
+            <option value="$PROJECT_DIR$/libraries/library_multistateview" />
+            <option value="$PROJECT_DIR$/libraries/library_swipebackactivity" />
+            <option value="$PROJECT_DIR$/libraries/library_swipemenulistview" />
+            <option value="$PROJECT_DIR$/libraries/library_wheel" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

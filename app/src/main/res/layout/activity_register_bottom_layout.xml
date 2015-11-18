@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_item_h"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/register_country"
+            style="@style/account_edittext_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@null"
+            android:drawableLeft="@drawable/account_country"
+            android:hint="@string/register_country_str1"
+            android:inputType="number"
+            android:textColor="#FF313131"
+            android:textColorHint="@color/register_hint_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/register_country_str2"
+            android:textColor="@color/register_hint_color1" />
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/account_r" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/register_hint_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_item_h"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/register_phone"
+            style="@style/account_edittext_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:background="@null"
+            android:drawableLeft="@drawable/account"
+            android:hint="@string/register_phone_str"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:textColor="#FF000000"
+            android:textColorHint="@color/register_hint_color"
+            android:textSize="16sp" />
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:id="@+id/register_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/account_del" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/register_hint_line" />
+
+    <TextView
+        android:id="@+id/register"
+        style="@style/login_button_style"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/xiu_counter_blue_selector"
+        android:gravity="center"
+        android:text="@string/register" />
+</LinearLayout>

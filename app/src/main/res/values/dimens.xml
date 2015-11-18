@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="top_bar_height">50dp</dimen>
+
+    <dimen name="shouye_wen_item_padding_offset">2dp</dimen>
+
+    <dimen name="pull_refresh_progress_size">45dp</dimen>
+    <dimen name="update_bar_height">62dp</dimen>
+    <dimen name="update_bar_icon_space">8dp</dimen>
+
+    <dimen name="swipe_menu_item_width">90dp</dimen>
+    <dimen name="xiu_list_header">15dp</dimen>
+
+    <dimen name="swipe_menu_item_text_size">16sp</dimen>
+    <dimen name="sub_swipe_menu_item_text_size">14sp</dimen>
+
+    <dimen name="name_xiu_sub_list_header">1dp</dimen>
+    <dimen name="score_padding">2dp</dimen>
+    <!--注册-->
+    <dimen name="register_usr">25dp</dimen>
+    <dimen name="register_wrong">30dp</dimen>
+    <dimen name="register_item_h">45dp</dimen>
+    <dimen name="register_tip_size">16sp</dimen>
+
+    <!--设置密码-->
+    <dimen name="set_password_margin">20dp</dimen>
+
+    <dimen name="edit_layout_description_height">160dp</dimen>
+    <dimen name="edit_layout_nickname_height">50dp</dimen>
+    <dimen name="edit_text_number_limit">40dp</dimen>
+    <dimen name="edit_address_item_padding">10dp</dimen>
+
+    <dimen name="circle_image_size">65dp</dimen>
+    <dimen name="team_circle_image_size">120dp</dimen>
+
+    <dimen name="toast_text_size">16sp</dimen>
+    <dimen name="toast_padding">10dp</dimen>
+    <dimen name="toast_height">50dp</dimen>
+    <dimen name="toast_width">100dp</dimen>
+</resources>

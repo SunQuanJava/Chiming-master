@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+
+ext {
+    PUBLISH_GROUP_ID = 'com.avast'
+    PUBLISH_ARTIFACT_ID = 'android-styled-dialogs'
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 21
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.nineoldandroids:library:2.4.0'
+    provided fileTree(include: '*.jar', dir: 'libs')
+}

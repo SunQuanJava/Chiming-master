@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chiming.iml" filepath="$PROJECT_DIR$/Chiming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_actionsheet/actionsheet.iml" filepath="$PROJECT_DIR$/libraries/library_actionsheet/actionsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_androidquery/androidquery.iml" filepath="$PROJECT_DIR$/libraries/library_androidquery/androidquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_astickyheader/astickyheader.iml" filepath="$PROJECT_DIR$/libraries/library_astickyheader/astickyheader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseApp/baseApp.iml" filepath="$PROJECT_DIR$/baseApp/baseApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_dialog/dialog.iml" filepath="$PROJECT_DIR$/libraries/library_dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_download/download.iml" filepath="$PROJECT_DIR$/libraries/library_download/download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_multistateview/multistateview.iml" filepath="$PROJECT_DIR$/libraries/library_multistateview/multistateview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_swipebackactivity/swipebackactivity.iml" filepath="$PROJECT_DIR$/libraries/library_swipebackactivity/swipebackactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_swipemenulistview/swipemenulistview.iml" filepath="$PROJECT_DIR$/libraries/library_swipemenulistview/swipemenulistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library_wheel/wheel.iml" filepath="$PROJECT_DIR$/libraries/library_wheel/wheel.iml" />
+    </modules>
+  </component>
+</project>

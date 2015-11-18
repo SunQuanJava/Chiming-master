@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/si_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shouye_item_selector"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="12dp">
+
+    <com.baizhi.baseapp.widget.CircleImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/circle_image_size"
+        android:layout_height="@dimen/circle_image_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        app:border_color="@color/transparent"
+        app:border_width="0dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/top_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/icon"
+        android:paddingBottom="5dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="5dp"
+        android:paddingTop="0dp">
+
+        <ImageView
+            android:id="@+id/more_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/more" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/more_icon"
+            android:layout_alignTop="@id/more_icon"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:maxLines="2"
+            android:text="卖烹饪博余胡哦哦额拉第三方卖烹"
+            android:textColor="#ff000000"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_wrapper"
+        android:layout_toRightOf="@id/icon"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:text="阿拉山口等级分离开家第三方"
+        android:textColor="#ff898989"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/createDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/icon"
+        android:ellipsize="end"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:text="发布日期：5015.03.1"
+        android:textColor="#ff898989"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/createDate"
+        android:background="#ffdddddd" />
+
+</RelativeLayout>

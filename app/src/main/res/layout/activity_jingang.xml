@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sunquan.chimingfazhou.widget.PullDownView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/jingang_PullDown"
+    >
+    <ListView
+        android:id="@+id/jingang_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1.0px"
+        android:divider="#ffdddddd"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        />
+
+</com.sunquan.chimingfazhou.widget.PullDownView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/placeholder_1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#ffefeff4"
+        android:layout_alignParentTop="true"/>
+
+    <View
+        android:id="@+id/placeholder_2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/placeholder_1"
+        android:background="#ffdddddd" />
+
+    <RelativeLayout
+        android:id="@+id/add_wrapper"
+        android:layout_below="@id/placeholder_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/xiu_item_selector">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/add_galary"
+            android:drawablePadding="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/add_galary_message"
+            android:textColor="#ffec6941"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffdddddd" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/add_wrapper"
+        android:background="#ffefeff4"/>
+</RelativeLayout>

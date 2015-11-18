@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/overshoot_interpolator">
+    <scale
+        android:duration="@android:integer/config_shortAnimTime"
+        android:fromXScale="0"
+        android:fromYScale="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1"
+        android:toYScale="1" />
+</set><!-- From: file:/E:/download/ChiMingFaZhou/libraries/library_dialog/src/main/res/anim/sdl_dialog_show.xml -->

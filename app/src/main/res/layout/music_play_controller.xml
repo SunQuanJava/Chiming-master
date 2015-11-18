@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sunquan.chimingfazhou.widget.MusicControllerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/tab_color">
+
+    <LinearLayout
+        android:id="@+id/seekbar_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_curcentTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="8"
+            android:maxHeight="3dp"
+            android:minHeight="3dp"
+            android:progressDrawable="@drawable/rating_bar"
+            android:thumb="@drawable/progress_thumb"
+            android:thumbOffset="2dip"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_allTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/seekbar_wrapper"
+        android:background="#ff000b61" />
+
+    <LinearLayout
+        android:id="@android:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/line"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/presong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/play_pre_song_selector"
+            android:gravity="center"
+            android:text="@string/presong_message"
+            android:textColor="@color/tab_selector"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/playsong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/play_pause_song_selector"
+            android:gravity="center"
+            android:text="@string/pause_message"
+            android:textColor="@color/tab_selector"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/nextsong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/play_next_song_selector"
+            android:gravity="center"
+            android:text="@string/nextsong_message"
+            android:textColor="@color/tab_selector"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</com.sunquan.chimingfazhou.widget.MusicControllerLayout>

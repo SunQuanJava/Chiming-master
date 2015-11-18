@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialog_blur_radius">4</integer>
+    <integer name="blur_dialog_animation_duration">180</integer>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/image_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:background="@drawable/team_circle_background"
+        >
+
+        <com.baizhi.baseapp.widget.CircleImageView
+            android:id="@+id/team_image"
+            android:layout_width="@dimen/team_circle_image_size"
+            android:layout_height="@dimen/team_circle_image_size"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_default_icon"
+            app:border_color="#ffdcdcdc"
+            app:border_width="6dp"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/team_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_wrapper"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="adfa"
+        android:textColor="#ff999999"
+        android:textSize="15sp"
+        />
+
+</RelativeLayout>

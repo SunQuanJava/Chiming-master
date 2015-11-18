@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="1dp">
+
+    <RelativeLayout
+        android:id="@+id/left_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:id="@+id/left_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/left_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:background="#b2000000"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shouye_wen_corner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/left_count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="15"
+            android:textColor="#ffDAA520"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textSize="11sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/center_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:id="@+id/center_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/center_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:background="#b2000000"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shouye_wen_corner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/center_count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="15"
+            android:textColor="#ffDAA520"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textSize="11sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_wrapper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:id="@+id/right_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/right_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:background="#b2000000"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <com.baizhi.baseapp.widget.RecyclingImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shouye_wen_corner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/right_count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="15"
+            android:textColor="#ffDAA520"
+            android:gravity="center"
+            android:padding="2dp"
+            android:textSize="11sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
